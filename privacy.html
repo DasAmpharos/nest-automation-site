@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy policy · nest-automation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <p><a href="./">← nest-automation</a></p>
+    <h1>Privacy policy</h1>
+    <p class="meta">Last updated October 23, 2026</p>
+
+    <p>
+      nest-automation is a personal project used by a single household to control its own Nest
+      thermostats. It is not a commercial service and has no users outside that household.
+    </p>
+
+    <h2>Data accessed</h2>
+    <p>
+      With the household's authorization, the app uses the Google Smart Device Management API to
+      read and change the household's own Nest thermostats. This includes indoor temperature,
+      humidity, heating and cooling status, setpoints, and thermostat mode.
+    </p>
+    <p>
+      The app also records whether household members' phones are on the home Wi-Fi network, and
+      receives arrive/leave events that household members choose to send from their own phones.
+      It also records comfort feedback ("too warm", "too cold", "fine") that household members
+      submit.
+    </p>
+
+    <h2>How data is used</h2>
+    <p>
+      Data is used only to choose thermostat setpoints and to measure how well the app saves
+      energy. Summaries of thermostat state, the weather forecast and comfort feedback are sent to
+      the Anthropic API to help plan setpoints. Weather forecasts are fetched from Open-Meteo,
+      and no household data is sent to Open-Meteo.
+    </p>
+
+    <h2>Storage and sharing</h2>
+    <p>
+      Data is stored on a computer inside the home. It is not sold, not used for advertising, and
+      not shared with anyone except the services named above, which the app needs in order to
+      work.
+    </p>
+
+    <h2>Retention and deletion</h2>
+    <p>
+      The household can delete the stored data at any time. Google access can be revoked at any
+      time from the Google Account permissions page
+      (<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>)
+      or the Nest partner connections page
+      (<a href="https://nestservices.google.com/partnerconnections">nestservices.google.com/partnerconnections</a>).
+    </p>
+
+    <h2>Google API Services User Data Policy</h2>
+    <p>
+      The app's use of information received from Google APIs follows the
+      <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API
+      Services User Data Policy</a>, including the Limited Use requirements.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      Questions about this policy can be raised by opening an issue on this site's
+      <a href="https://github.com/DasAmpharos/nest-automation-site/issues">GitHub repository</a>.
+    </p>
+  </main>
+</body>
+</html>
